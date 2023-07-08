@@ -1,0 +1,1 @@
+addi $zero,$r0,5

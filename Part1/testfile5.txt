@@ -1,0 +1,3 @@
+addi	$r0, $r0, 3
+	addi	$r15 ,$r15, 4
+mul	$r30, $r0, $r15#multiplyyy
