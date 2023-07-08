@@ -1,0 +1,14 @@
+main:
+	addi	$t0, $zero, 5
+	addi	$t1, $zero, 6
+	addi	$t2, $zero, 7
+	
+	
+	
+	lw	$t5, 1020	#redundant
+	mul	$t5, $t2, $t0
+	lw	$t5, 1000	#redundant
+	lw	$t5, 1280	#not redundant
+	sub	$t7, $t5, $t1
+
+exit:

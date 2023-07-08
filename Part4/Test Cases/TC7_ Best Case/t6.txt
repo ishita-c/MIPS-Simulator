@@ -1,0 +1,98 @@
+main:
+	addi $s0, $s0, 1200
+	addi $t0, $t0, 500
+	add  $t0, $t0, $s0
+	slt  $t5, $s0, $t0 	#$t5=1
+	mul  $t6, $t5, 9
+	beq  $t0, 1700, loop1
+	sw   $t0, 1800
+	lw   $t3, 1800
+	
+loop1:
+	
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	add  $t0, $t0, $s0
+	
+	j exit
+	lw $t4, 500
+	sw $t6, 1040
+	sw $t5, 4($t4)
+	
+exit:

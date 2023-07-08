@@ -1,0 +1,23 @@
+main:
+	addi $t0, $t0, 1000
+	sub  $t1, $t1, -2000
+	add  $t2, $t0, $t1
+	slt  $t3, $t1, $t2
+	mul  $t3, $t3, 9
+	bne  $t3, $t2, loop2
+	beq  $t3, $t2, loop1
+	
+loop1:
+	sub $t5, $t5, 1
+	bne $t5, $zero, loop1
+	j exit
+	
+	
+loop2:
+	sw $t3, 1000
+	lw $t5, 0($t0)
+	beq $t5, $t0, loop1
+	bne $t5, $t0, exit
+	
+
+exit:

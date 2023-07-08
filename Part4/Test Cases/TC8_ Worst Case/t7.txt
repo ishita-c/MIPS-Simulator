@@ -1,0 +1,6 @@
+main:
+	addi $t0, $zero, 900
+
+
+
+exit:

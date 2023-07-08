@@ -1,0 +1,7 @@
+addi $s0, $s0, 238
+addi $s2, $s2, 1024
+sw $s0, ($s2)
+addi $t0, $t5, 1021
+add $t0, $t0, $t0
+mul $t2, $t0, $t0
+lw $s5, ($s2) # forwarded even after a few instructions

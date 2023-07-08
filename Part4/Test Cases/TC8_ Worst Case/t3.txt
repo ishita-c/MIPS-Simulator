@@ -1,0 +1,6 @@
+main:
+	beq $s0, $zero, exit
+		
+
+
+exit:

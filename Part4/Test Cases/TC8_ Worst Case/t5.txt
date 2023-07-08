@@ -1,0 +1,7 @@
+main:
+	sub $t2, $t2, 1
+	
+	
+
+
+exit:

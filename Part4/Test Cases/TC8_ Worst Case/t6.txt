@@ -1,0 +1,4 @@
+main:
+	mul $t5, $t5, 8
+	
+exit:

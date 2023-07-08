@@ -1,0 +1,13 @@
+main:
+	addi 	$t0, $zero, 600
+	addi	$t2, $t2, 800
+	addi	$t3, $t3, 450
+	
+	
+	lw 	$t1, 1000	#redundant
+	addi	$t1, $t2, 300
+	
+	lw	$t5, 2000	#not redundant
+	add	$t5, $t2, $t5
+
+exit:

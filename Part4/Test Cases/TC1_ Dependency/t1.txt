@@ -1,0 +1,12 @@
+addi $s0, $zero, 1000
+addi $s1, $zero, 1024
+addi $t0, $zero, 1
+addi $t1, $zero, 2
+
+lw $t2, 0($s0)
+lw $t3, 0($s1)
+
+add $t2, $s0, $s1
+addi $s2, $zero, 1028
+
+sw $t3, 0($s2)

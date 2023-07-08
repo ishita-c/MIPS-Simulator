@@ -1,0 +1,7 @@
+lw $s0, 1000
+addi $s0, $zero, 1
+addi $t1, $s0, 1
+addi $t3, $zero, 1
+addi $t4, $zero, 1
+addi $t5, $zero, 1
+addi $t6, $zero, 1

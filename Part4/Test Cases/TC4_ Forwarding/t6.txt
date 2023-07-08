@@ -1,0 +1,4 @@
+addi $t0, $t0, 11
+add $t5, $t0, $t5
+addi $t4, $t4, 23
+sub $t3, $t4, $t5

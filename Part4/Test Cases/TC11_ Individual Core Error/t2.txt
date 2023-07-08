@@ -1,0 +1,5 @@
+addi $t4, $t4, 23
+sub $t3, $t4, $t5
+addi $zero,$t0,5 # writing to $zero prohibited, execution error
+addi $t0, $t0, 11
+add $t5, $t0, $t5

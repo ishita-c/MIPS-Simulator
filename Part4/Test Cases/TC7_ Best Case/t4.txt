@@ -1,0 +1,126 @@
+main:
+	addi $s0, $zero, 1000
+	addi $s1, $zero, 500
+	sub  $t4, $s0, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	
+	sub  $s0, $t3, $s1
+	
+	addi $s0, $zero, 1000
+	addi $s1, $zero, 500
+	sub  $t4, $s0, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	sub  $s0, $t3, $s1
+	
+	addi $s0, $zero, 1000
+	addi $s1, $zero, 500
+	sub  $t4, $s0, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	
+	sub  $s0, $t3, $s1
+	
+	addi $s0, $zero, 1000
+	addi $s1, $zero, 500
+	sub  $t4, $s0, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	sub  $s0, $t3, $s1
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	sub  $s0, $t3, $s1
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	sub  $s0, $t3, $s1
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	
+	add $s0, $s0, $s0
+	add $s1, $s1, $s0
+	
+	
+	addi $s0, $s0, 1000
+	addi $t3, $zero, 500
+	addi $s1, $s1, 2000
+	sub  $s0, $t3, $s1
+	sub  $s0, $t3, $s1
+	
+	
+
+
+exit:

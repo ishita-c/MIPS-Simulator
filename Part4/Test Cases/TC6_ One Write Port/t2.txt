@@ -1,0 +1,33 @@
+main:
+	lw	$t1, 1000
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	addi 	$t0, $t0, 9
+	
+	
+	
+	
+	
+
+exit:

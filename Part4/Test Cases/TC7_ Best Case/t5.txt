@@ -1,0 +1,16 @@
+main:
+	
+	add $t2, $t2, 28
+	beq $t2, $zero, exit
+	bne $t2, $zero, loop
+	
+loop:
+	sub $t2, $t2, 1
+	beq $t2, $zero, exit
+	bne $t2, $zero, loop
+	
+	
+	
+
+
+exit:

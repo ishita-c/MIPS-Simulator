@@ -1,0 +1,7 @@
+addi $s0, $s0, 238
+addi $s2, $s2, 1024
+sw $s0, ($s2)
+addi $s0, $s0, 5
+addi $s1, $s1, 9
+mul $s0, $s1, $s0
+lw $s5, ($s2) # this lw isn't forwarded

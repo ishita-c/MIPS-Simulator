@@ -1,0 +1,8 @@
+addi $t0, $t0, 1000
+addi $t1, $t1, 2000
+addi $t2, $t2, 2000
+sw $t0, ($t0)
+lw $t1, ($t0) # forwarded by sw
+addi $s0, $s0, 5
+addi $s1, $s1, 9
+mul $s0, $s1, $s0
