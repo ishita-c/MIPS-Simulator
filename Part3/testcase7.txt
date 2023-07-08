@@ -1,0 +1,24 @@
+main:
+	addi $t0, $zero, 900
+	addi $t1, $t1, 600
+	addi $t2, $t2, 2000
+	addi $t3, $t3, 2040
+	j hello
+	addi $t4, $zero, 700
+	
+hello:
+	
+	sw $t0, 4($t2)
+	sw $t3, 0($t1)
+	sw $t1, 0($t3)
+	sw $t2, 0($t1)
+	sw $t3, 1000
+		
+	lw $t4, 600
+	lw $t5, 40($t2)
+	
+	bne $t5, $t4, exit	
+	beq $t5, $t4, hello
+
+
+exit:
