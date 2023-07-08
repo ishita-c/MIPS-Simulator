@@ -1,0 +1,19 @@
+main:
+	addi $r0, $zero, 1
+	addi $r1, $zero, 2
+	addi $r5, $zero, 0
+	addi $r6,$zero,20
+	sw $r0, 1000
+label:
+	addi $r5, $r5,1
+	bne $r5,$r6,label	
+	sw $r1, 1024
+	
+	lw $r2, 1000
+	lw $r3, 2048
+	
+	add $r3, $r3, $r2
+		
+	sw $r5, 1028
+	
+exit:
